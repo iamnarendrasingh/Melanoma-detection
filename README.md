@@ -50,6 +50,10 @@ Figure 1: CNN model architecture for melanoma detection.
 2. **Validation Performance**:
    - The validation accuracy improved consistently with each epoch, peaking at around 92.28%.
    - Validation loss decreased as the model learned, highlighting its ability to generalize well on unseen data.
+   
+![Model Accuracy and Loss](images/model_accuracy_loss.png)
+Figure 2: Model accuracy and loss during training and validation.
+
 
 3. **Model Generalization**:
    - The model demonstrated strong generalization, as evidenced by the consistent improvement in validation accuracy and reduction in validation loss.
@@ -74,9 +78,6 @@ Figure 1: CNN model architecture for melanoma detection.
    - The model's ability to accurately classify images and its strong validation performance indicate its potential utility in assisting dermatologists with melanoma detection.
    - Continued evaluation and potential fine-tuning of the model could further enhance its performance and clinical relevance.
    
-![Model Accuracy and Loss](images/model_accuracy_loss.png)
-Figure 2: Model accuracy and loss during training and validation.
-
 Overall, the trained CNN model demonstrates promising results in accurately classifying skin cancer images, with effective handling of class imbalances and avoidance of overfitting. The use of Google Colab streamlined the development process and allowed for efficient experimentation. Further refinement and evaluation could contribute to the model's practical applicability in dermatological diagnoses.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
