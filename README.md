@@ -104,11 +104,4 @@ Overall, the trained CNN model demonstrates promising results in accurately clas
 - The project drew insights from various sources to develop an effective CNN model.
 
 ## Contact
-Created by [@iamnarendrasingh] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by [@iamnarendrasingh](https://www.linkedin.com/in/narendrasingh92/) - feel free to contact me!
