@@ -18,7 +18,7 @@ The data set contains the following nine diseases:
 
 ## Table of Contents
 * [General Info](#general-information)
-* [Model Architecture](model-architecture)
+* [Model Architecture](#model-architecture)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
