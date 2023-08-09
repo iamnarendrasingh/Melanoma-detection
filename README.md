@@ -18,6 +18,7 @@ The data set contains the following nine diseases:
 
 ## Table of Contents
 * [General Info](#general-information)
+* [Model Architecture](model-architecture)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
@@ -33,6 +34,12 @@ The core business problem we are addressing is the timely and accurate identific
 For this project, we are utilizing a comprehensive dataset of skin images that includes various types of skin lesions, including melanoma. This dataset enables our model to learn and recognize distinct features associated with melanoma. By training on diverse examples, we seek to develop a robust model capable of making accurate predictions when presented with new, unseen images. The availability of this dataset is pivotal for achieving our project's objective of creating an effective melanoma detection tool.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+
+## Model Architecture
+The CNN model architecture consists of multiple convolutional and pooling layers followed by fully connected layers. The architecture was designed to learn relevant features from the images for accurate classification.
+
+![Model Architecture](images/model_architecture.png)
+Figure 1: CNN model architecture for melanoma detection.
 
 ## Conclusions
 1. **Model Training Progress**:
@@ -66,6 +73,9 @@ For this project, we are utilizing a comprehensive dataset of skin images that i
 8. **Model Evaluation**:
    - The model's ability to accurately classify images and its strong validation performance indicate its potential utility in assisting dermatologists with melanoma detection.
    - Continued evaluation and potential fine-tuning of the model could further enhance its performance and clinical relevance.
+   
+![Model Accuracy and Loss](images/model_accuracy_loss.png)
+Figure 2: Model accuracy and loss during training and validation.
 
 Overall, the trained CNN model demonstrates promising results in accurately classifying skin cancer images, with effective handling of class imbalances and avoidance of overfitting. The use of Google Colab streamlined the development process and allowed for efficient experimentation. Further refinement and evaluation could contribute to the model's practical applicability in dermatological diagnoses.
 
@@ -88,8 +98,9 @@ Overall, the trained CNN model demonstrates promising results in accurately clas
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
-- This project was inspired by the assignment provided by UpGrad.
-- This project was based on the Skin Cancer dataset from ISIC (The International Skin Imaging Collaboration).
+- This project was inspired by the need for efficient melanoma detection.
+- The "Skin cancer ISIC The International Skin Imaging Collaboration" dataset was used for training and evaluation.
+- The project drew insights from various sources to develop an effective CNN model.
 
 ## Contact
 Created by [@iamnarendrasingh] - feel free to contact me!
