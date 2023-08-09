@@ -30,18 +30,23 @@ For this project, we are utilizing a comprehensive dataset of skin images that i
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python: The programming language used for writing the entire code.
+- Git and GitHub: Used for version control and collaborating on code.
+- Git Bash: A command-line interface for Git on Windows.
+- GitHub: A platform for hosting and collaborating on Git repositories.
+- TensorFlow: An open-source machine learning framework used for building and training neural network models.
+- Matplotlib: A plotting library used for creating visualizations, such as training curves and images.
+- NumPy: A library for numerical computations in Python, used for working with arrays and mathematical operations.
+- PIL (Pillow): Python Imaging Library, used for loading and manipulating images.
+- Augmentor: A library for data augmentation, used for generating augmented images.
+- Seaborn: A statistical data visualization library based on Matplotlib, used for creating bar plots.
+- Google Colab: An online platform for writing and executing Python code, often used for data analysis and machine learning.
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
+- This project was inspired by the assignment provided by UpGrad.
+- This project was based on the Skin Cancer dataset from ISIC (The International Skin Imaging Collaboration).
 
 ## Contact
 Created by [@iamnarendrasingh] - feel free to contact me!
